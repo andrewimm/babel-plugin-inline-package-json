@@ -1,0 +1,20 @@
+{
+  "name": "babel-plugin-inline-package-json",
+  "version": "1.0.0",
+  "description": "Inline references to fields in package.json",
+  "repository": "andrewimm/babel-plugin-inline-package-json",
+  "license": "BSD-3-Clause",
+  "main": "lib/index.js",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "dependencies": {
+    "babel-core": "^5.8.0"
+  },
+  "dev-dependencies": {
+    "babel": "^5.8.0"
+  },
+  "scripts": {
+    "build": "babel-plugin build"
+  }
+}
