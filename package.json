@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-inline-package-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inline references to fields in package.json",
   "repository": "andrewimm/babel-plugin-inline-package-json",
   "license": "BSD-3-Clause",
