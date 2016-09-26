@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-inline-package-json",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Inline references to fields in package.json",
   "repository": "andrewimm/babel-plugin-inline-package-json",
   "license": "BSD-3-Clause",
@@ -8,13 +8,8 @@
   "keywords": [
     "babel-plugin"
   ],
-  "dependencies": {
-    "babel-core": "^5.8.0"
-  },
-  "dev-dependencies": {
-    "babel": "^5.8.0"
-  },
-  "scripts": {
-    "build": "babel-plugin build"
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
   }
 }
