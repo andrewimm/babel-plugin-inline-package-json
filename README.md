@@ -2,13 +2,30 @@
 
 Babel plugin for inlining values from `package.json`
 
+Using `require`:
+
 Input:
-```js
+
+```javascript
 var version = require('./package.json').version;
 ```
+
 Output:
-```js
+
+```javascript
 var version = '1.0.0';
+```
+
+Using `import`:
+
+```javascript
+import { version } from '../package.json';
+```
+
+Output:
+
+```javascript
+const version = '1.0.0';
 ```
 
 The plugin can be used to import any value from a `package.json` file: primitives, objects, or arrays will all be injected into your compiled source as literal expressions.
@@ -37,7 +54,7 @@ $ babel --plugins inline-package-json script.js
 
 ### Via Node API
 
-```js
+```javascript
 require('babel-core').transform('code', {
   plugins: ['inline-package-json']
 });
